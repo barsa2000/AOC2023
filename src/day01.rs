@@ -81,6 +81,6 @@ zoneight234
 
     #[test]
     fn sample2() {
-        assert_eq!(part2(&parse_input(input2())), 0);
+        assert_eq!(part2(&parse_input(input2())), 281);
     }
 }
