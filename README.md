@@ -18,4 +18,5 @@ Advent of Code 2023 solutions written in [Rust](https://www.rust-lang.org/) :cra
 
 | Problem                                                                 | Solution                 | #1  |   #1 Answer | #2  |         #2 Answer |
 | :---------------------------------------------------------------------- | :----------------------- | :-: | ----------: | :-: | ----------------: |
-| [Day 1: Report Repair](https://adventofcode.com/2023/day/1)             | [day01.rs](src/day01.rs) |  ✓  |    **1559** |  ✓  |          **1600** |
+| [Day 1: Trebuchet?!](https://adventofcode.com/2023/day/1)               | [day01.rs](src/day01.rs) |  ✓  |   **55971** |  ✓  |         **54719** |
+| [Day 2: Cube Conundrum](https://adventofcode.com/2023/day/2)            | [day02.rs](src/day02.rs) |  ✓  |    **2449** |  ✓  |         **63981** |
