@@ -1,8 +1,6 @@
 use std::collections::HashMap;
 
 use aoc_runner_derive::{aoc, aoc_generator};
-use binary_tree::Node;
-use regex::Regex;
 
 type Parsed = HashMap<usize, Vec<Vec<(Color, usize)>>>;
 
@@ -75,7 +73,7 @@ fn part1(input: &Parsed) -> usize {
 fn part2(input: &Parsed) -> usize {
     input
         .iter()
-        .map(|(key, val)| {
+        .map(|(_, val)| {
             let mut r = 0;
             let mut g = 0;
             let mut b = 0;
